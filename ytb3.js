@@ -1,6 +1,6 @@
 // YouTube ALL-IN-ONE
 // Ads 제거 + PiP + Background Playback
-// For Stash
+
 
 if (!$response.body) {
   $done({});
@@ -56,3 +56,4 @@ try {
 }
 
 $done({ body: JSON.stringify(obj) });
+
